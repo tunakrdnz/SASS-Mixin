@@ -1,0 +1,54 @@
+.container {
+  color: Green;
+  border-color: Green;
+  font-size: 1rem;
+  border: 2px solid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-color: red;
+  place-items: center;
+}
+.container .title {
+  grid-column: span 4;
+  text-align: center;
+  border-bottom: 2px solid blue;
+}
+.container .articles {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1em;
+  height: 150px;
+}
+.container .articles .article:nth-child(odd) .item {
+  color: red;
+}
+.container .article {
+  color: Green;
+  border-color: Green;
+  font-size: 1rem;
+  border: 2px solid;
+}
+.container .article .item {
+  color: blue;
+  padding: 1rem;
+}
+.container .footer {
+  color: Green;
+  border-color: Green;
+  font-size: 1rem;
+  border: 2px solid;
+  grid-column: span 4;
+  margin: 10px;
+  width: 98%;
+  font-size: 24px;
+  height: 120px;
+  border-color: blue;
+  text-align: center;
+}
+.container .footer .foot-item {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
