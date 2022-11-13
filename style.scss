@@ -1,7 +1,7 @@
-@mixin articles($color: Green) {
+@mixin articles($color: Green, $border-color: $color, $font-size: 1rem) {
     color: $color;
-    border-color: $color;
-    font-size: 1rem;
+    border-color: $borde-color;
+    font-size: $font-size;
     border: 2px solid;
     
     
